@@ -26,7 +26,9 @@ export default function Home(){
 </button> 
 </div>
 
-<div className="pt-10 mt-[100px] pl-2 scroll-smooth">
+<div className="pt-10 mt-[200px] pl-2 scroll-smooth bg-red-500">
+  
+<h3 className="text-center">We're Exited to help You!</h3>
 
 <Image
         src={img}
@@ -37,14 +39,10 @@ export default function Home(){
         // placeholder="blur" // Optional blur-up while loading
       />
 
+
 </div>
 
-<div className=" flex justify-end">
-  <h3>We're Exicted to help You!</h3>
-  <p>
 
-  </p>
-</div>
 
 
     </body>
