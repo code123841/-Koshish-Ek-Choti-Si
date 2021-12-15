@@ -1,8 +1,9 @@
 import Head from 'next/head'
-
+import Image from 'next/image'
+import img from '../public/womanSvg.svg'
 export default function Home(){
   return(
-    <body className="bg-gradient-to-r from-cyan-500 to-blue-500">
+    <body className="">
       {/* navabr part */}
   <nav className="flex justify-center space-x-4 sticky top-0">
   <a href="/dashboard" className="font-bold px-3 py-2 text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900">Home</a>
@@ -13,8 +14,8 @@ export default function Home(){
 
 </nav>
     
-    <div>
-    <h1 className=" justify-start text-center text-xl  pt-10 font-sans text-white ">Welcome to <span className="text-red-500 italic before:block before:absolute before:-inset-1 before:-skew-y-3  relative inline-block"> KOSHISH EK CHOTI SI </span> < br/> where we beleive in <br />easy access to education for all! </h1>
+    <div className="text-center">
+    <h1 className="  text-xl  pt-10 font-sans ">Welcome to <span className="text-red-500 italic before:block before:absolute before:-inset-1 before:-skew-y-3  relative inline-block"> KOSHISH EK CHOTI SI </span> < br/> where we beleive in <br />easy access to education for all! </h1>
     </div>
 
 <div className="justify-items-center text-center pt-5">
@@ -23,6 +24,26 @@ export default function Home(){
 >
   Our works
 </button> 
+</div>
+
+<div className="pt-10 mt-[100px] pl-2 scroll-smooth">
+
+<Image
+        src={img}
+        alt="Picture of the author"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
+
+</div>
+
+<div className=" flex justify-end">
+  <h3>We're Exicted to help You!</h3>
+  <p>
+
+  </p>
 </div>
 
 
