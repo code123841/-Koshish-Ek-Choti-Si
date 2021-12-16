@@ -26,20 +26,32 @@ export default function Home(){
 </button> 
 </div>
 
-<div className="pt-10 mt-[200px] pl-2 scroll-smooth bg-red-500">
-  
-<h3 className="text-center">We're Exited to help You!</h3>
+<div className="pt-10 mt-[200px] pl-2 scroll-smooth ">
+   
+<h3 className="text-center md:text-center sm:text-right pr-5 text-lg font-semibold">We're Exited to help You!</h3>
+<p className='text-center md:text-center sm:text-right text-gray-400 pr-5'>
+We help 10 students every year and we have have helped 70+ students <br />
+for their education till now. If you need help with college fees, opportunities, or further <br />
+ education please feel free to email us at : koshishekchotisi@gmail.com
 
+
+</p>
+<div className='flex justify-center'>
 <Image
         src={img}
         alt="Picture of the author"
+        className=""
         // width={500} automatically provided
         // height={500} automatically provided
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
 
+</div>
 
+<div>
+  <h2>What We Do?</h2>
+</div>
 </div>
 
 
