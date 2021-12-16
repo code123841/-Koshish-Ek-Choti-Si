@@ -49,8 +49,43 @@ for their education till now. If you need help with college fees, opportunities,
 
 </div>
 
-<div>
-  <h2 className="font-sans text-center mt-[200px] text-xl ">What We Do?</h2>
+<div className="">
+  <h2 className="font-sans text-center mt-[200px] text-[30px] ">What We Do?</h2>
+
+
+  {/* What we do section */}
+  <div className="grid grid-cols-2 gap-5">
+    {/* content one */}
+    <div className=" pt-[10px]">
+
+      <p className='pt-8 pl-[200px] font-serif sm: text-left  '>
+      At Koshish Ek Choti Si, we believe <br />
+      that everyone has the right to < br/>
+      good quality education. In order to< br/>
+      further promote the belief and encourage < br/>
+      everyone to pursue their dreams through education <br />
+      we provide funding to underprivileged kids. We provide scholarships < br />
+      to student/s from low-income families in order <br />
+       to further promote these kids' dreams and aspirations. ​
+      </p>
+   
+    </div>
+
+    <div className='grid justify-items-end pr-10 pt-8 pr-[300px] '>
+      <h3 className='text-lg font-bold text-center pr-[200px]'>Our mission</h3>
+      <p>
+      Our mission is to reach out to those extremely
+       <br /> deserving students in India who are unable to afford 
+      <br /> education. In the Universal Declaration of Human< br/> Rights, adopted in 1948, Article 26 states:< br/>
+       'Everyone has the right to education'; < br />
+       our mission is to ensure that money does not get < br/>
+        in the way of these students ability to practice this human right.
+      </p>
+
+    </div>
+
+  </div>
+
 </div>
 </div>
 
