@@ -84,16 +84,19 @@ for their education till now. If you need help with college fees, opportunities,
 
     </div>
 
-    <div className="">
-      <h2>Support Our Mission</h2>
-
-    </div>
-
-
+   
 
   </div>
 
 </div>
+
+<div className=" ">
+      <h2 className="flex justify-center text-[40px] pt-10">Support Our Mission</h2>
+      <h2 className="flex justify-center text-red-800 pt-5 font-semibold">ready?</h2>
+
+    </div>
+
+
 </div>
 
 
