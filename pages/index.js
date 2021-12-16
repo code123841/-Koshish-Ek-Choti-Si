@@ -50,7 +50,7 @@ for their education till now. If you need help with college fees, opportunities,
 </div>
 
 <div>
-  <h2>What We Do?</h2>
+  <h2 className="font-sans text-center mt-[200px] text-xl ">What We Do?</h2>
 </div>
 </div>
 
